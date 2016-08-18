@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0A2178CB1D6332F7008B3A7F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178CA1D6332F7008B3A7F /* main.cpp */; };
 		0A2178D31D633327008B3A7F /* TwoSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178D11D633327008B3A7F /* TwoSum.cpp */; };
+		0A2178D61D64B533008B3A7F /* addTwoNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178D41D64B533008B3A7F /* addTwoNum.cpp */; };
+		0A2178D91D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178D71D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		0A2178CA1D6332F7008B3A7F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A2178D11D633327008B3A7F /* TwoSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TwoSum.cpp; sourceTree = "<group>"; };
 		0A2178D21D633327008B3A7F /* TwoSum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TwoSum.hpp; sourceTree = "<group>"; };
+		0A2178D41D64B533008B3A7F /* addTwoNum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = addTwoNum.cpp; sourceTree = "<group>"; };
+		0A2178D51D64B533008B3A7F /* addTwoNum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = addTwoNum.hpp; sourceTree = "<group>"; };
+		0A2178D71D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longestSubstringWithoutRepeat.cpp; sourceTree = "<group>"; };
+		0A2178D81D65F2DF008B3A7F /* longestSubstringWithoutRepeat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = longestSubstringWithoutRepeat.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				0A2178CA1D6332F7008B3A7F /* main.cpp */,
+				0A2178D71D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp */,
+				0A2178D81D65F2DF008B3A7F /* longestSubstringWithoutRepeat.hpp */,
+				0A2178D41D64B533008B3A7F /* addTwoNum.cpp */,
+				0A2178D51D64B533008B3A7F /* addTwoNum.hpp */,
 				0A2178D11D633327008B3A7F /* TwoSum.cpp */,
 				0A2178D21D633327008B3A7F /* TwoSum.hpp */,
 			);
@@ -123,8 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2178D91D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp in Sources */,
 				0A2178D31D633327008B3A7F /* TwoSum.cpp in Sources */,
 				0A2178CB1D6332F7008B3A7F /* main.cpp in Sources */,
+				0A2178D61D64B533008B3A7F /* addTwoNum.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
