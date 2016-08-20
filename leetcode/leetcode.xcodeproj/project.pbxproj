@@ -13,6 +13,7 @@
 		0A2178D91D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178D71D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp */; };
 		0A2178DC1D673879008B3A7F /* findMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178DA1D673879008B3A7F /* findMedianSortedArrays.cpp */; };
 		0A2178DF1D6777D4008B3A7F /* longestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178DD1D6777D4008B3A7F /* longestPalindromicSubstring.cpp */; };
+		0AD2C4DC1D684A2B008C9187 /* zigzagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2C4DA1D684A2B008C9187 /* zigzagConversion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		0A2178DB1D673879008B3A7F /* findMedianSortedArrays.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = findMedianSortedArrays.hpp; sourceTree = "<group>"; };
 		0A2178DD1D6777D4008B3A7F /* longestPalindromicSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longestPalindromicSubstring.cpp; sourceTree = "<group>"; };
 		0A2178DE1D6777D4008B3A7F /* longestPalindromicSubstring.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = longestPalindromicSubstring.hpp; sourceTree = "<group>"; };
+		0AD2C4DA1D684A2B008C9187 /* zigzagConversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zigzagConversion.cpp; sourceTree = "<group>"; };
+		0AD2C4DB1D684A2B008C9187 /* zigzagConversion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = zigzagConversion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				0A2178CA1D6332F7008B3A7F /* main.cpp */,
+				0AD2C4DA1D684A2B008C9187 /* zigzagConversion.cpp */,
+				0AD2C4DB1D684A2B008C9187 /* zigzagConversion.hpp */,
 				0A2178DD1D6777D4008B3A7F /* longestPalindromicSubstring.cpp */,
 				0A2178DE1D6777D4008B3A7F /* longestPalindromicSubstring.hpp */,
 				0A2178DA1D673879008B3A7F /* findMedianSortedArrays.cpp */,
@@ -149,6 +154,7 @@
 				0A2178DF1D6777D4008B3A7F /* longestPalindromicSubstring.cpp in Sources */,
 				0A2178D61D64B533008B3A7F /* addTwoNum.cpp in Sources */,
 				0A2178DC1D673879008B3A7F /* findMedianSortedArrays.cpp in Sources */,
+				0AD2C4DC1D684A2B008C9187 /* zigzagConversion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +275,7 @@
 				0A2178D01D6332F7008B3A7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
