@@ -7,16 +7,15 @@
 //
 
 #include <iostream>
-#include "findMedianSortedArrays.cpp"
+#include "longestPalindromicSubstring.cpp"
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    vector<int> nums1 = {1, 2};
-    vector<int> nums2 = {3, 4};
-    int r = s.findMedianSortedArrays(nums1, nums2);
-    printf("%d", r);
+    string a = "abcbe";
+    string b = s.longestPalindrome(a);
+    cout << b;
     return 0;
 }
 

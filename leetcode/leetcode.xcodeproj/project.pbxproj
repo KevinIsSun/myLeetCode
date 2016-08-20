@@ -12,6 +12,7 @@
 		0A2178D61D64B533008B3A7F /* addTwoNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178D41D64B533008B3A7F /* addTwoNum.cpp */; };
 		0A2178D91D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178D71D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp */; };
 		0A2178DC1D673879008B3A7F /* findMedianSortedArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178DA1D673879008B3A7F /* findMedianSortedArrays.cpp */; };
+		0A2178DF1D6777D4008B3A7F /* longestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178DD1D6777D4008B3A7F /* longestPalindromicSubstring.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		0A2178D81D65F2DF008B3A7F /* longestSubstringWithoutRepeat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = longestSubstringWithoutRepeat.hpp; sourceTree = "<group>"; };
 		0A2178DA1D673879008B3A7F /* findMedianSortedArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = findMedianSortedArrays.cpp; sourceTree = "<group>"; };
 		0A2178DB1D673879008B3A7F /* findMedianSortedArrays.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = findMedianSortedArrays.hpp; sourceTree = "<group>"; };
+		0A2178DD1D6777D4008B3A7F /* longestPalindromicSubstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longestPalindromicSubstring.cpp; sourceTree = "<group>"; };
+		0A2178DE1D6777D4008B3A7F /* longestPalindromicSubstring.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = longestPalindromicSubstring.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				0A2178CA1D6332F7008B3A7F /* main.cpp */,
+				0A2178DD1D6777D4008B3A7F /* longestPalindromicSubstring.cpp */,
+				0A2178DE1D6777D4008B3A7F /* longestPalindromicSubstring.hpp */,
 				0A2178DA1D673879008B3A7F /* findMedianSortedArrays.cpp */,
 				0A2178DB1D673879008B3A7F /* findMedianSortedArrays.hpp */,
 				0A2178D71D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp */,
@@ -141,6 +146,7 @@
 				0A2178D91D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp in Sources */,
 				0A2178D31D633327008B3A7F /* TwoSum.cpp in Sources */,
 				0A2178CB1D6332F7008B3A7F /* main.cpp in Sources */,
+				0A2178DF1D6777D4008B3A7F /* longestPalindromicSubstring.cpp in Sources */,
 				0A2178D61D64B533008B3A7F /* addTwoNum.cpp in Sources */,
 				0A2178DC1D673879008B3A7F /* findMedianSortedArrays.cpp in Sources */,
 			);
