@@ -7,15 +7,14 @@
 //
 
 #include <iostream>
-#include "longestPalindromicSubstring.cpp"
+#include "palindromeNumber.cpp"
 
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     Solution s = Solution();
-    string a = "abcbe";
-    string b = s.longestPalindrome(a);
-    cout << b;
+    int i = -101;
+    s.isPalindrome(i);
     return 0;
 }
 
