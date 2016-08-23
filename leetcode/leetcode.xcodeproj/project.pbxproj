@@ -15,6 +15,7 @@
 		0A2178DF1D6777D4008B3A7F /* longestPalindromicSubstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A2178DD1D6777D4008B3A7F /* longestPalindromicSubstring.cpp */; };
 		0A33E1251D69DED600C0BF05 /* stringToInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A33E1231D69DED600C0BF05 /* stringToInteger.cpp */; };
 		0A33E1281D69EEF000C0BF05 /* palindromeNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A33E1261D69EEF000C0BF05 /* palindromeNumber.cpp */; };
+		0A33E12B1D6B5A6E00C0BF05 /* regularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A33E1291D6B5A6E00C0BF05 /* regularExpressionMatching.cpp */; };
 		0AD2C4DC1D684A2B008C9187 /* zigzagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2C4DA1D684A2B008C9187 /* zigzagConversion.cpp */; };
 		0AD2C4DF1D685259008C9187 /* reverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2C4DD1D685259008C9187 /* reverseInteger.cpp */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,8 @@
 		0A33E1241D69DED600C0BF05 /* stringToInteger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stringToInteger.hpp; sourceTree = "<group>"; };
 		0A33E1261D69EEF000C0BF05 /* palindromeNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = palindromeNumber.cpp; sourceTree = "<group>"; };
 		0A33E1271D69EEF000C0BF05 /* palindromeNumber.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = palindromeNumber.hpp; sourceTree = "<group>"; };
+		0A33E1291D6B5A6E00C0BF05 /* regularExpressionMatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = regularExpressionMatching.cpp; sourceTree = "<group>"; };
+		0A33E12A1D6B5A6E00C0BF05 /* regularExpressionMatching.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = regularExpressionMatching.hpp; sourceTree = "<group>"; };
 		0AD2C4DA1D684A2B008C9187 /* zigzagConversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zigzagConversion.cpp; sourceTree = "<group>"; };
 		0AD2C4DB1D684A2B008C9187 /* zigzagConversion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = zigzagConversion.hpp; sourceTree = "<group>"; };
 		0AD2C4DD1D685259008C9187 /* reverseInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverseInteger.cpp; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				0A2178CA1D6332F7008B3A7F /* main.cpp */,
+				0A33E1291D6B5A6E00C0BF05 /* regularExpressionMatching.cpp */,
+				0A33E12A1D6B5A6E00C0BF05 /* regularExpressionMatching.hpp */,
 				0A33E1261D69EEF000C0BF05 /* palindromeNumber.cpp */,
 				0A33E1271D69EEF000C0BF05 /* palindromeNumber.hpp */,
 				0A33E1231D69DED600C0BF05 /* stringToInteger.cpp */,
@@ -163,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A33E12B1D6B5A6E00C0BF05 /* regularExpressionMatching.cpp in Sources */,
 				0A2178D91D65F2DF008B3A7F /* longestSubstringWithoutRepeat.cpp in Sources */,
 				0A2178D31D633327008B3A7F /* TwoSum.cpp in Sources */,
 				0A2178CB1D6332F7008B3A7F /* main.cpp in Sources */,
