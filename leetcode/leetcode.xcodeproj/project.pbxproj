@@ -18,6 +18,7 @@
 		0A33E12B1D6B5A6E00C0BF05 /* regularExpressionMatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A33E1291D6B5A6E00C0BF05 /* regularExpressionMatching.cpp */; };
 		0A33E12E1D6C913600C0BF05 /* containerWithMostWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A33E12C1D6C913600C0BF05 /* containerWithMostWater.cpp */; };
 		0A33E1311D6DE9CD00C0BF05 /* integerToRoman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A33E12F1D6DE9CD00C0BF05 /* integerToRoman.cpp */; };
+		0A33E1341D6DEB2700C0BF05 /* longestCommonPrefix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A33E1321D6DEB2700C0BF05 /* longestCommonPrefix.cpp */; };
 		0AD2C4DC1D684A2B008C9187 /* zigzagConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2C4DA1D684A2B008C9187 /* zigzagConversion.cpp */; };
 		0AD2C4DF1D685259008C9187 /* reverseInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AD2C4DD1D685259008C9187 /* reverseInteger.cpp */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,8 @@
 		0A33E12D1D6C913600C0BF05 /* containerWithMostWater.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = containerWithMostWater.hpp; sourceTree = "<group>"; };
 		0A33E12F1D6DE9CD00C0BF05 /* integerToRoman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = integerToRoman.cpp; sourceTree = "<group>"; };
 		0A33E1301D6DE9CD00C0BF05 /* integerToRoman.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = integerToRoman.hpp; sourceTree = "<group>"; };
+		0A33E1321D6DEB2700C0BF05 /* longestCommonPrefix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = longestCommonPrefix.cpp; sourceTree = "<group>"; };
+		0A33E1331D6DEB2700C0BF05 /* longestCommonPrefix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = longestCommonPrefix.hpp; sourceTree = "<group>"; };
 		0AD2C4DA1D684A2B008C9187 /* zigzagConversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = zigzagConversion.cpp; sourceTree = "<group>"; };
 		0AD2C4DB1D684A2B008C9187 /* zigzagConversion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = zigzagConversion.hpp; sourceTree = "<group>"; };
 		0AD2C4DD1D685259008C9187 /* reverseInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reverseInteger.cpp; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				0A2178CA1D6332F7008B3A7F /* main.cpp */,
+				0A33E1321D6DEB2700C0BF05 /* longestCommonPrefix.cpp */,
+				0A33E1331D6DEB2700C0BF05 /* longestCommonPrefix.hpp */,
 				0A33E12F1D6DE9CD00C0BF05 /* integerToRoman.cpp */,
 				0A33E1301D6DE9CD00C0BF05 /* integerToRoman.hpp */,
 				0A33E12C1D6C913600C0BF05 /* containerWithMostWater.cpp */,
@@ -191,6 +196,7 @@
 				0A2178DC1D673879008B3A7F /* findMedianSortedArrays.cpp in Sources */,
 				0AD2C4DC1D684A2B008C9187 /* zigzagConversion.cpp in Sources */,
 				0A33E1281D69EEF000C0BF05 /* palindromeNumber.cpp in Sources */,
+				0A33E1341D6DEB2700C0BF05 /* longestCommonPrefix.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
